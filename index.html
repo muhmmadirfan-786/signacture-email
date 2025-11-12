@@ -4,21 +4,49 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Email Signature - Hallinans</title>
-</head>
-<body style=" font-family:Arial, Helvetica, sans-serif;">
 
-<table border="0" cellpadding="0" cellspacing="0" style="width:100%; max-width:600px; background-color:#ffff; margin:40px auto; padding:25px; border-radius:15px; border:2px solid #e8cf6e;">
+<style>
+@media only screen and (max-width: 400px) {
+  table[class="main-table"] {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  td[class="header-left"],
+  td[class="header-right"] {
+    display: block !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+  td[class="header-right"] img {
+    margin: 10px auto !important;
+  }
+   table[class="award-table"] td[class="award-col"] {
+    display: block !important;
+    width: 100% !important;
+    padding: 10px 0 !important;
+  }
+  img[class="responsive-img"] {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+}
+</style>
+</head>
+
+<body style="font-family:Arial, Helvetica, sans-serif; margin:0; padding:0;">
+
+<table border="0" cellpadding="0" cellspacing="0" class="main-table" style="width:100%; max-width:600px; background-color:#ffff; margin:40px auto; padding:25px; border-radius:15px; border:2px solid #e8cf6e;">
   
   <!-- Header -->
   <tr>
-    <td style="width:65%; vertical-align:middle;">
+    <td class="header-left" style="width:65%; vertical-align:middle;">
       <div>
         <div style="font-size:18px; font-weight:bold; color:#233e6f;">Maya Kendrick</div>
         <div style="font-size:14px; color:#233e6f; margin-top:2px;">Legal Assistant</div>
       </div>
     </td>
-    <td style="text-align:right; vertical-align:middle; padding-right:15px;">
-      <img src="https://i.ibb.co/39cvG5N7/Hallinans-logo-Blue.png" alt="Hallinans Logo" width="160" style="display:block;">
+    <td class="header-right" style="text-align:right; vertical-align:middle; padding-right:15px;">
+      <img src="https://i.ibb.co/39cvG5N7/Hallinans-logo-Blue.png" alt="Hallinans Logo" width="160" class="responsive-img" style="display:block;">
     </td>
   </tr>
 
@@ -88,7 +116,7 @@
 
   <!-- Social Icons -->
   <tr>
-    <td colspan="2" style="padding:15px 15px 25px; ">
+    <td colspan="2" style="padding:15px 15px 25px;">
       <a href="https://uk.linkedin.com/company/hallinan-blackburn-gittings-nott-llp" target="_blank" style="text-decoration:none;">
         <img src="https://i.ibb.co/k667NDmz/Frame-12.png" alt="LinkedIn" width="26" style="margin-right:8px; vertical-align:middle;">
       </a>
@@ -102,19 +130,28 @@
   </tr>
   
 
-  <!-- Award Logos -->
-  <tr>
+ <!-- Award Logos -->
+<tr>
   <td colspan="2" style="padding-top:10px; border-top:1px solid #e8cf6e;">
-    <table width="100%" cellpadding="0" cellspacing="0" style="text-align:center;">
+    <table width="100%" cellpadding="0" cellspacing="0" class="award-table" style="text-align:center;">
       <tr>
-        <td style="width:33.3%; padding:10px;">
-          <img src="https://i.ibb.co/dwXWLt0K/The-Times-BLF2026-Logo-Standard.jpg" alt="The Times Award" style="width:100%; max-width:160px; height:auto; display:block; margin:0 auto;">
+        <td class="award-col" style="width:33.3%; padding:10px;">
+          <img src="https://i.ibb.co/dwXWLt0K/The-Times-BLF2026-Logo-Standard.jpg" 
+               alt="The Times Award" 
+               class="responsive-img" 
+               style="width:100%; max-width:160px; height:auto; display:block; margin:0 auto;">
         </td>
-        <td style="width:33.3%; padding:10px;">
-          <img src="https://i.ibb.co/tTW6xrxG/Firm-Logo-1.jpg" alt="Chambers Award" style="width:100%; max-width:160px; height:auto; display:block; margin:0 auto;">
+        <td class="award-col" style="width:33.3%; padding:10px;">
+          <img src="https://i.ibb.co/tTW6xrxG/Firm-Logo-1.jpg" 
+               alt="Chambers Award" 
+               class="responsive-img" 
+               style="width:100%; max-width:160px; height:auto; display:block; margin:0 auto;">
         </td>
-        <td style="width:33.3%; padding:10px;">
-          <img src="https://i.ibb.co/23hSz89W/UK-Leading-firm-2026-272x300.webp" alt="Legal 500 Award" style="width:100%; max-width:160px; height:auto; display:block; margin:0 auto;">
+        <td class="award-col" style="width:33.3%; padding:10px;">
+          <img src="https://i.ibb.co/23hSz89W/UK-Leading-firm-2026-272x300.webp" 
+               alt="Legal 500 Award" 
+               class="responsive-img" 
+               style="width:100%; max-width:160px; height:auto; display:block; margin:0 auto;">
         </td>
       </tr>
     </table>
